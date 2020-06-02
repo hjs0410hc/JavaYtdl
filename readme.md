@@ -1,8 +1,8 @@
-#JavaYtdl
+# JavaYtdl
 
 매우 간단한 유튜브 다운로더입니다. Java swing, youtube-dl, ffmpeg를 이용하여 만들어졌습니다.
 
-##사용법
+## 기능 및 사용법
 
 사용법은 간단합니다. 유튜브 URL을 복사하여 버튼을 누르면 됩니다.
 
