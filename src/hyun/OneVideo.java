@@ -240,6 +240,18 @@ public class OneVideo extends JFrame {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
+		
+		try {
+			String[] command = {"cmd","/c","del","/F",fname+".mp4\""};
+			Process p =Runtime.getRuntime().exec(command);
+			p.waitFor();
+			String[] command2 = {"cmd","/c","del","/F",fname+".m4a\""};
+			p = Runtime.getRuntime().exec(command2);
+			p.waitFor();
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	void setJfcSetting() {
