@@ -16,6 +16,6 @@ audio only 포맷과 video only 포맷을 동시에 지정할 시 두 개의 파
 플레이리스트 다운로드를 지원합니다. 근데 화질을 지정할 수는 없습니다...
 
 ## 다운로드
-https://github.com/hjs0410hc/JavaYtdl/blob/release/JavaYtdl-0.0.1.zip
+
 release branch에 들어가서 압축파일을 확인할 수 있습니다. 압축을 풀고 JavaYtdl-0.0.1.exe 를 실행해주세요.
 lib 폴더는 삭제하면 안됩니다.
