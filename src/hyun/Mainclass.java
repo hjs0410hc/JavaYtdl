@@ -22,7 +22,7 @@ public class Mainclass extends JFrame {
 		texts.setColumns(30);
 		JButton button = new JButton("정보 가져오기");
 		button.addActionListener(e -> {
-			if (texts.getText().equals("") || !(texts.getText().contains("youtube.com/"))) {
+			if (texts.getText().equals("") || !(texts.getText().contains("youtube.com/") || (texts.getText().contains("search_query")))) {
 				JOptionPane.showMessageDialog(this, "올바른 유튜브 URL을 입력해야 합니다!", "오류", JOptionPane.ERROR_MESSAGE);
 			} else {
 
