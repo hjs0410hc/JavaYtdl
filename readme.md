@@ -1,5 +1,5 @@
 # JavaYtdl
-ver 0.0.1-firstrelease
+ver 0.0.3
 
 매우 간단한 유튜브 다운로더입니다. Java swing, youtube-dl, ffmpeg를 이용하여 만들어졌습니다.
 
